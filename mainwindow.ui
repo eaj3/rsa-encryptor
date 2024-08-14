@@ -20,7 +20,7 @@
    <string>rsa-encryptor</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="btnGenerateKeys">
     <property name="geometry">
      <rect>
       <x>30</x>
@@ -33,7 +33,7 @@
      <string>Generate Keys</string>
     </property>
    </widget>
-   <widget class="QTextBrowser" name="textBrowser">
+   <widget class="QTextBrowser" name="txtKeys">
     <property name="geometry">
      <rect>
       <x>30</x>
