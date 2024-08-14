@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QTextBrowser>
 #include <rsa_key_generator.h>
 
 QT_BEGIN_NAMESPACE
@@ -24,5 +25,6 @@ private slots:
 private:
     Ui::MainWindow *ui;
     RSAKeyGenerator *keyGenerator;
+    QTextBrowser *txtKeys;
 };
 #endif // MAINWINDOW_H
