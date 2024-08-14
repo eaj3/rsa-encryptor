@@ -10,10 +10,12 @@ CONFIG += c++17
 
 SOURCES += \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    rsa_key_generator.cpp
 
 HEADERS += \
-    mainwindow.h
+    mainwindow.h \
+    rsa_key_generator.h
 
 FORMS += \
     mainwindow.ui
