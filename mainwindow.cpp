@@ -27,7 +27,7 @@ void MainWindow::on_btnGenerateKeys_clicked()
 
     // Display the generated keys to txtKeys
     txtKeys->setHtml(
-        QString("Random 32-bit primes:<br>"
+        QString("Private keys (32bit):<br>"
                 "p1: %1<br>"
                 "p2: %2<br>"
                 )
