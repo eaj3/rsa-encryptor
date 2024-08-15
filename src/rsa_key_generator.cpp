@@ -1,6 +1,6 @@
 #include "rsa_key_generator.h"
 #include <QRandomGenerator>
-#include <QDateTIme>
+#include <QDateTime>
 #include <QDebug>
 
 RSAKeyGenerator::RSAKeyGenerator(QObject *parent)
