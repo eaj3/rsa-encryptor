@@ -2,6 +2,8 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QTextBrowser>
+#include <rsa_key_generator.h>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -17,7 +19,12 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+    void on_btnGenerateKeys_clicked();
+
 private:
     Ui::MainWindow *ui;
+    RSAKeyGenerator *keyGenerator;
+    QTextBrowser *txtKeys;
 };
 #endif // MAINWINDOW_H
