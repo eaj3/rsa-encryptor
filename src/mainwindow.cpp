@@ -9,6 +9,12 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
     txtKeys = ui->txtKeys;
+    btnEncrypt = ui->btnEncrypt;
+    btnDecrypt = ui->btnDecrypt;
+    txtInputEncrypt = ui->txtInputEncrypt;
+    txtInputDecrypt = ui->txtInputDecrypt;
+    txtOutputEncrypt = ui->txtOutputEncrypt;
+    txtOutputDecrypt = ui->txtOutputDecrypt;
 }
 
 MainWindow::~MainWindow()
@@ -34,4 +40,12 @@ void MainWindow::on_btnGenerateKeys_clicked()
             .arg(keys.first)
             .arg(keys.second)
         );
+
+    // Enable ui for encryption/decryption
+    btnEncrypt->setEnabled(true);
+    btnDecrypt->setEnabled(true);
+    txtInputEncrypt->setEnabled(true);
+    txtInputDecrypt->setEnabled(true);
+    txtOutputEncrypt->setEnabled(true);
+    txtOutputDecrypt->setEnabled(true);
 }

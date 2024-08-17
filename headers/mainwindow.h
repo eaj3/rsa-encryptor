@@ -28,7 +28,11 @@ private:
     Ui::MainWindow *ui;
     RSAKeyGenerator *keyGenerator;
     QTextBrowser *txtKeys;
-    QPlainTextEdit *txtInputEncrypt;
     QPushButton *btnEncrypt;
+    QPushButton *btnDecrypt;
+    QPlainTextEdit *txtInputEncrypt;
+    QPlainTextEdit *txtInputDecrypt;
+    QPlainTextEdit *txtOutputEncrypt;
+    QPlainTextEdit *txtOutputDecrypt;
 };
 #endif // MAINWINDOW_H
