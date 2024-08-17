@@ -3,6 +3,8 @@
 
 #include <QMainWindow>
 #include <QTextBrowser>
+#include <QPlainTextEdit>
+#include <QPushButton>
 #include <rsa_key_generator.h>
 
 QT_BEGIN_NAMESPACE
@@ -26,5 +28,7 @@ private:
     Ui::MainWindow *ui;
     RSAKeyGenerator *keyGenerator;
     QTextBrowser *txtKeys;
+    QPlainTextEdit *txtInputEncrypt;
+    QPushButton *btnEncrypt;
 };
 #endif // MAINWINDOW_H
