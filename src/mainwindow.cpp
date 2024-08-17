@@ -49,3 +49,9 @@ void MainWindow::on_btnGenerateKeys_clicked()
     txtOutputEncrypt->setEnabled(true);
     txtOutputDecrypt->setEnabled(true);
 }
+
+void MainWindow::on_btnEncrypt_clicked()
+{
+
+}
+

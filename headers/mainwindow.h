@@ -24,6 +24,8 @@ public:
 private slots:
     void on_btnGenerateKeys_clicked();
 
+    void on_btnEncrypt_clicked();
+
 private:
     Ui::MainWindow *ui;
     RSAKeyGenerator *keyGenerator;
