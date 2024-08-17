@@ -68,6 +68,9 @@
      </item>
      <item>
       <widget class="QPlainTextEdit" name="txtInputEncrypt">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="verticalScrollBarPolicy">
         <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOff</enum>
        </property>
@@ -133,6 +136,9 @@
      </item>
      <item>
       <widget class="QPlainTextEdit" name="txtInputDecrypt">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="verticalScrollBarPolicy">
         <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOff</enum>
        </property>
