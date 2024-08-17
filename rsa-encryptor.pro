@@ -9,13 +9,15 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    src/rsa_encryptor.cpp \
     src/main.cpp \
     src/mainwindow.cpp \
     src/rsa_key_generator.cpp
 
 HEADERS += \
     headers/mainwindow.h \
-    headers/rsa_key_generator.h
+    headers/rsa_key_generator.h \
+    headers/rsa_encryptor.h
 
 FORMS += \
     mainwindow.ui
