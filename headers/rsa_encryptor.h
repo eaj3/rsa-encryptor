@@ -1,10 +1,15 @@
 #ifndef RSA_ENCRYPTOR_H
 #define RSA_ENCRYPTOR_H
 
-class rsa_encryptor
+#include <QObject>
+
+class RSAEncryptor : public QObject
 {
+    Q_OBJECT
+
 public:
-    rsa_encryptor();
+    explicit RSAEncryptor(QObject *parent = nullptr);
+
 };
 
 #endif // RSA_ENCRYPTOR_H
